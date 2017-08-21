@@ -116,7 +116,7 @@ public class Apriori {
 		return false;
 	}
     public static void main(String[] args) throws IOException{
-		String fn = "/Users/mac/Desktop/data.txt";
+		String fn = "src/cn/uestc/preprocessing/data.txt";
 		float minSup = 0.05f;
 		float minConf = 0.5f;
 		File file = new File(fn);
